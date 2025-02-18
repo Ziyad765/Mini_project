@@ -14,14 +14,14 @@ const EventDetails = () => {
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
           <div className="flex items-center space-x-2 mb-2">
-            <span className="px-3 py-1 bg-indigo-600 rounded-full text-sm">Art</span>
-            <span className="text-sm">March 15, 2025</span>
+            <span className="px-3 py-1 bg-indigo-600 rounded-full text-sm">GECK BAND</span>
+            <span className="text-sm">FEB 15, 2025</span>
           </div>
-          <h1 className="text-4xl font-bold mb-2">Modern Art Exhibition</h1>
+          <h1 className="text-4xl font-bold mb-2">GECK MUSIC BAND</h1>
           <div className="flex items-center space-x-4">
             <div className="flex items-center space-x-1">
               <MapPin className="h-4 w-4" />
-              <span>Metropolitan Museum</span>
+              <span>GECK GROUND</span>
             </div>
             <div className="flex items-center space-x-1">
               <Clock className="h-4 w-4" />
@@ -37,8 +37,8 @@ const EventDetails = () => {
           <div className="bg-white p-6 rounded-lg shadow-md">
             <h2 className="text-2xl font-semibold mb-4">About the Event</h2>
             <p className="text-gray-600">
-              Join us for an extraordinary exhibition featuring contemporary artworks from emerging artists around the globe. 
-              This curated collection showcases diverse perspectives and innovative techniques in modern art.
+              Join us for an extraordinary music fest featuring contemporary music from emerging artists around the globe. 
+              This curated collection showcases diverse perspectives and innovative techniques in modern music.
             </p>
           </div>
 
@@ -60,7 +60,7 @@ const EventDetails = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold">Guided Tour</h3>
-                  <p className="text-gray-600">3:00 PM - Expert-led tour of the exhibition</p>
+                  <p className="text-gray-600">3:00 PM - Expert music indroduction</p>
                 </div>
               </div>
             </div>
@@ -74,7 +74,7 @@ const EventDetails = () => {
               <div className="p-4 border border-gray-200 rounded-lg">
                 <div className="flex justify-between items-center mb-2">
                   <span className="font-semibold">General Admission</span>
-                  <span className="text-lg font-bold">$25</span>
+                  <span className="text-lg font-bold">₹250</span>
                 </div>
                 <button className="w-full py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">
                   Book Now
@@ -83,7 +83,7 @@ const EventDetails = () => {
               <div className="p-4 border border-gray-200 rounded-lg">
                 <div className="flex justify-between items-center mb-2">
                   <span className="font-semibold">VIP Access</span>
-                  <span className="text-lg font-bold">$50</span>
+                  <span className="text-lg font-bold">₹500</span>
                 </div>
                 <button className="w-full py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">
                   Book Now
