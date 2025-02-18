@@ -78,30 +78,7 @@ const Home = () => {
             View All
           </Link>
         </div>
-        <div className="grid md:grid-cols-3 gap-8">
-          {/* Event cards will be dynamically populated */}
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
-            <img
-              src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819"
-              alt="Music festival"
-              className="w-full h-48 object-cover"
-            />
-            <div className="p-6">
-              <span className="text-sm text-indigo-600 font-semibold">Music</span>
-              <h3 className="text-xl font-semibold mt-2">Summer Music Festival</h3>
-              <p className="text-gray-600 mt-2">Experience the best of local and international artists...</p>
-              <div className="mt-4">
-                <Link
-                  to="/events/1"
-                  className="text-indigo-600 hover:text-indigo-700 font-semibold"
-                >
-                  Learn More
-                </Link>
-              </div>
-            </div>
-          </div>
-          {/* More event cards... */}
-        </div>
+
       </section>
     </div>
   );
